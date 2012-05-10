@@ -10,10 +10,6 @@ set pastetoggle=<F2>
 " Unsaved buffers
 set hidden
 
-"augroup myfiledetect
-"  au!
-"  au BufNewFile,BufRead .bash_aliases,.bash_*,bash_* call SetFileTypeSH("bash")
-"augroup END
 
 " Buffers - explore/next/previous: Alt-F12, F12, Shift-F12.
 nnoremap <silent> <F12> :BufExplorer<CR>
