@@ -5,3 +5,42 @@ set tabstop=4
 set shiftwidth=4
 set showmatch
 
+set pastetoggle=<F2>
+
+" Unsaved buffers
+set hidden
+
+"augroup myfiledetect
+"  au!
+"  au BufNewFile,BufRead .bash_aliases,.bash_*,bash_* call SetFileTypeSH("bash")
+"augroup END
+
+" Buffers - explore/next/previous: Alt-F12, F12, Shift-F12.
+nnoremap <silent> <F12> :BufExplorer<CR>
+nnoremap <silent> <M-F12> :bn<CR>
+nnoremap <silent> <S-F12> :bp<CR>
+
+" Mappings to access buffers (don't use "\p" because a
+" delay before pressing "p" would accidentally paste).
+" \l       : list buffers
+" \b \f \g : go back/forward/last-used
+" \1 \2 \3 : go to buffer 1/2/3 etc
+nnoremap ,l :ls<CR>
+nnoremap ,b :bp<CR>
+nnoremap ,f :bn<CR>
+nnoremap ,g :e#<CR>
+nnoremap ,1 :1b<CR>
+nnoremap ,2 :2b<CR>
+nnoremap ,3 :3b<CR>
+nnoremap ,4 :4b<CR>
+nnoremap ,5 :5b<CR>
+nnoremap ,6 :6b<CR>
+nnoremap ,7 :7b<CR>
+nnoremap ,8 :8b<CR>
+nnoremap ,9 :9b<CR>
+nnoremap ,0 :10b<CR>
+
+" It's useful to show the buffer number in the status line.
+set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+
+filetype plugin on

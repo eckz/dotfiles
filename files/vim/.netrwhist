@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/erick/mobile/opencart/.pc/json-controllers.diff'
+let g:netrw_dirhist_2='/home/erick/mobile/opencart/.pc/json-controllers.diff/catalog'
+let g:netrw_dirhist_3='/home/erick/mobile/opencart/.pc/json-controllers.diff'
+let g:netrw_dirhist_4='/home/erick/mobile/opencart/.pc'
+let g:netrw_dirhist_5='/home/erick/mobile/opencart'
+let g:netrw_dirhist_6='/home/erick/bin/rails/rails_admin_facebook/lib/rails_admin_facebook'
+let g:netrw_dirhist_7='/usr/lib/jvm/java-6-sun-1.6.0.26/jre'
+let g:netrw_dirhist_8='/usr/lib/jvm/java-6-sun-1.6.0.26/jre/bin'
+let g:netrw_dirhist_9='/home/erick/bin/rails/friends_gather/.bundle'
