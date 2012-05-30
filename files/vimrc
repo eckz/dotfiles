@@ -11,6 +11,12 @@ set pastetoggle=<F2>
 set hidden
 
 
+filetype plugin on
+filetype indent on
+
+" It's useful to show the buffer number in the status line.
+set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+
 " Buffers - explore/next/previous: Alt-F12, F12, Shift-F12.
 nnoremap <silent> <F12> :BufExplorer<CR>
 nnoremap <silent> <M-F12> :bn<CR>
@@ -36,7 +42,4 @@ nnoremap ,8 :8b<CR>
 nnoremap ,9 :9b<CR>
 nnoremap ,0 :10b<CR>
 
-" It's useful to show the buffer number in the status line.
-set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
-filetype plugin on
