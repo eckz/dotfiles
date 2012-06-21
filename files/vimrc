@@ -10,9 +10,12 @@ set pastetoggle=<F2>
 " Unsaved buffers
 set hidden
 
-
 filetype plugin on
 filetype indent on
+
+"Omnicompletion
+"set ofu=syntaxcomplete#Complete
+"imap <silent> <buffer> . .<C-X><C-O>
 
 " It's useful to show the buffer number in the status line.
 set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
@@ -24,9 +27,9 @@ nnoremap <silent> <S-F12> :bp<CR>
 
 " Mappings to access buffers (don't use "\p" because a
 " delay before pressing "p" would accidentally paste).
-" \l       : list buffers
-" \b \f \g : go back/forward/last-used
-" \1 \2 \3 : go to buffer 1/2/3 etc
+" ,l       : list buffers
+" ,b ,f ,g : go back/forward/last-used
+" ,1 ,2 ,3 : go to buffer 1/2/3 etc
 nnoremap ,l :ls<CR>
 nnoremap ,b :bp<CR>
 nnoremap ,f :bn<CR>
