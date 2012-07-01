@@ -10,8 +10,23 @@ set pastetoggle=<F2>
 " Unsaved buffers
 set hidden
 
+filetype on
 filetype plugin on
 filetype indent on
+
+syntax enable
+
+
+" Turn on wild menu
+set wildmenu
+
+" Path/file expansion in colon-mode.
+set wildmode=longest:full,list:full,list:longest
+set wildchar=<TAB>
+
+
+" Yes, we have a fast terminal
+set ttyfast
 
 "Omnicompletion
 "set ofu=syntaxcomplete#Complete
