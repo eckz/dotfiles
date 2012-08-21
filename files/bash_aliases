@@ -6,3 +6,4 @@ alias l='ls'
 alias lal='ls -Alh'
 
 alias s='cd ..'
+alias -- -='cd -'
