@@ -1,9 +1,10 @@
 # .bash_aliases
 
-alias ll='ls -Alh'
+alias ll='ls -lh'
+alias ld='ll -d'
 alias la='ls -A'
 alias l='ls'
-alias lal='ls -Alh'
+alias lal='ll -A'
 
 alias s='cd ..'
 alias -- -='cd -'
