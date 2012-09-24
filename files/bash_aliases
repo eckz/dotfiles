@@ -8,3 +8,5 @@ alias lal='ll -A'
 
 alias s='cd ..'
 alias -- -='cd -'
+
+alias gs='git status'
